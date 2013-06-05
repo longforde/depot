@@ -14,12 +14,14 @@
 		}
 
 		.list_image{
+		padding:3px;
 		width: 60px;
 		height: 70px;
+		box-shadow: 10px 10px 5px #888888;
 		}
 
 		.list_description {
-			width: 60%;
+			width: 60%
 		
 
 		dl {
@@ -40,7 +42,7 @@
 	.list actions {
 		font-size: x-small;
 		text-align: right;
-		padding-left: 1em;
+		padding-left: lem;
 	}
 
 	.list_line_even {
