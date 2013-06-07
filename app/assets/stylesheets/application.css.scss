@@ -12,6 +12,8 @@
  *= require_tree .
  */
 
+
+
 #banner{
 	background: #9c9;
 	box-shadow: 10px 10px 5px #888888;
@@ -40,7 +42,7 @@
 }
 
 #columns{
-	background: #176;
+	background: #344;
 
 	#main{
 		float:right;
@@ -58,7 +60,7 @@
 		border-top-right-radius: 5px;
 		border-bottom-right-radius:5px;
 		border: 1px dashed;
-		background: #141;
+		background-image: url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQw1H-Bv9fu5VWfApA0qcwfhyZ6WqJSD4s63XNbMpuyjLIDBId7');
 		box-shadow: 10px 10px 5px #888888;
 
 		form, div{
@@ -95,6 +97,41 @@
 		}
 	}
   }
+
+
+ .depot_form {
+ 	fieldset{
+ 		background: #efe;
+ 		legend {
+ 			color: #dfd;
+ 			background: #141;
+ 			font-family:sans-serif;
+ 			padding: 0.2em 1em;
+ 		}
+	}
+	form {
+		label{
+			width: 5em;
+			float: left;
+			text-align: right;
+			padding-top: 0.2em;
+			margin-right: 0.1em;
+			display: block;
+		}
+
+		select, textarea, input {
+			margin-left: 4em;
+		}
+
+		.submit{
+			margin-left: 4em;
+		}
+
+		br{
+			display: none;
+		}
+	}
+ }
 
 
 
