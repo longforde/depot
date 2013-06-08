@@ -1,5 +1,22 @@
 Depot::Application.routes.draw do
+<<<<<<< HEAD
   resources :products
+=======
+  resources :orders
+
+
+  resources :line_items
+
+
+  resources :carts
+
+
+  get "store/index"
+
+  resources :products do
+    get :who_bought, on: :member
+  end
+>>>>>>> 87b9cb925139a3ef0b9c6772855f929585b0274a
 
 
   # The priority is based upon order of creation:
@@ -53,6 +70,11 @@ Depot::Application.routes.draw do
   # just remember to delete public/index.html.
   # root :to => 'welcome#index'
 
+<<<<<<< HEAD
+=======
+  root to: 'store#index', as: 'store'
+
+>>>>>>> 87b9cb925139a3ef0b9c6772855f929585b0274a
   # See how all your routes lay out with "rake routes"
 
   # This is a legacy wild controller route that's not recommended for RESTful applications.

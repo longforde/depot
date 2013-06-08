@@ -44,7 +44,11 @@ class ProductsController < ApplicationController
 
     respond_to do |format|
       if @product.save
+<<<<<<< HEAD
         format.html { redirect_to @product, notice: 'Product was successfully created.' }
+=======
+        format.html { redirect_to @product, notice: "Product was successfully created." }
+>>>>>>> 87b9cb925139a3ef0b9c6772855f929585b0274a
         format.json { render json: @product, status: :created, location: @product }
       else
         format.html { render action: "new" }
@@ -80,4 +84,14 @@ class ProductsController < ApplicationController
       format.json { head :no_content }
     end
   end
+<<<<<<< HEAD
+=======
+
+  def who_bought
+    @product = Product.find(params[:id])
+    respond_to do |format|
+      format.atom
+    end
+  end    
+>>>>>>> 87b9cb925139a3ef0b9c6772855f929585b0274a
 end

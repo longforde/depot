@@ -1,3 +1,18 @@
 class ApplicationController < ActionController::Base
+<<<<<<< HEAD
   protect_from_forgery
+=======
+	protect_from_forgery
+
+	private
+
+		def current_cart
+			Cart.find(session[:cart_id])
+		rescue ActiveRecord::RecordNotFound
+			cart = Cart.create
+			session[:cart_id] = cart.id
+			cart
+		end
+
+>>>>>>> 87b9cb925139a3ef0b9c6772855f929585b0274a
 end

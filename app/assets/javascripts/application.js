@@ -11,5 +11,9 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
+<<<<<<< HEAD
+=======
+//= require jquery-ui
+>>>>>>> 87b9cb925139a3ef0b9c6772855f929585b0274a
 //= require jquery_ujs
 //= require_tree .

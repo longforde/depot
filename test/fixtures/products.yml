@@ -11,9 +11,12 @@ two:
   description: MyText
   image_url: MyString
   price: 9.99
+<<<<<<< HEAD
 
 ruby:
   title:       Programming Ruby 1.9
   description: Ruby is the fastest growing language
   price:       49.50
   image_url:   ruby.png
+=======
+>>>>>>> 87b9cb925139a3ef0b9c6772855f929585b0274a
